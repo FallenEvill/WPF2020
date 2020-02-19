@@ -1,0 +1,11 @@
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.exe
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.deps.json
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.runtimeconfig.json
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.runtimeconfig.dev.json
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.dll
+C:\Users\sashe\source\repos\Movement3D\Movement3D\bin\Debug\netcoreapp3.0\Movement3D.pdb
+C:\Users\sashe\source\repos\Movement3D\Movement3D\obj\Debug\netcoreapp3.0\Movement3D.csprojAssemblyReference.cache
+C:\Users\sashe\source\repos\Movement3D\Movement3D\obj\Debug\netcoreapp3.0\Movement3D.AssemblyInfoInputs.cache
+C:\Users\sashe\source\repos\Movement3D\Movement3D\obj\Debug\netcoreapp3.0\Movement3D.AssemblyInfo.cs
+C:\Users\sashe\source\repos\Movement3D\Movement3D\obj\Debug\netcoreapp3.0\Movement3D.dll
+C:\Users\sashe\source\repos\Movement3D\Movement3D\obj\Debug\netcoreapp3.0\Movement3D.pdb
