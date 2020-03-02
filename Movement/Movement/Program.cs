@@ -18,7 +18,7 @@ namespace Movement
 
         public Move(double s, double a)
         {
-            this.angle = a;
+            this.angle = Math.PI * a / 180;
             xSpd = s * Math.Cos(a);
             ySpd = s * Math.Sin(a);
         }
