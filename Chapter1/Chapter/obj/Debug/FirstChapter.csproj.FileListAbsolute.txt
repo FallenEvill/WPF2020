@@ -1,0 +1,5 @@
+C:\Users\sashe\source\repos\Chapter\Chapter\bin\Debug\Chapter.exe.config
+C:\Users\sashe\source\repos\Chapter\Chapter\bin\Debug\Chapter.exe
+C:\Users\sashe\source\repos\Chapter\Chapter\bin\Debug\Chapter.pdb
+C:\Users\sashe\source\repos\Chapter\Chapter\obj\Debug\Chapter.exe
+C:\Users\sashe\source\repos\Chapter\Chapter\obj\Debug\Chapter.pdb
