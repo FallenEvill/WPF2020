@@ -18,45 +18,44 @@ namespace Movement
 
         public Move(double s, double a)
         {
-            this.angle = Math.PI * a / 180;
-            xSpd = s * Math.Cos(a);
-            ySpd = s * Math.Sin(a);
+            this.angle = Math.PI * a / 180.0;
+            xSpd = s * Math.Cos(angle);
+            ySpd = s * Math.Sin(angle);
         }
-        public void initList()
+        public void InitList()
         {
             this.cXYT.Add(new List<double>());
             this.cXYT.Add(new List<double>());
             this.cXYT.Add(new List<double>());
         }
-        public void Calculate(double t)
+        public void Calculate(double s)
         {
             StreamWriter f = new StreamWriter("test123.txt");
-            for (int i = 1; i < t; i++)
+            double flt = 2 * ySpd / g;
+            for (double i = 1; i < flt; i += s)
             {
-                initList();
+                InitList();
                 cXYT[0].Add(xSpd * i);
                 cXYT[1].Add(ySpd * i - (g * i * i / 2));
                 cXYT[2].Add(i);
-                if (cXYT[1].Last() < 0)
+                for (int j = 0; j < 3; j++)
                 {
-                    double temp = 2 * ySpd / g;
-                    cXYT[0].Add(xSpd * temp);
+                    f.WriteLine(cXYT[j].Last());
+                    Console.WriteLine(cXYT[j].Last());
+                }
+                if ((flt - i) < s)
+                {
+                    cXYT[0].Add(xSpd * flt);
                     cXYT[1].Add(0);
-                    cXYT[1].Add(temp);
-                    Console.WriteLine("Полёт окончен. Время полёта: {0} секунд. Дистанция: {1} метров", temp, cXYT[0].Last());
+                    cXYT[2].Add(flt);
                     for (int j = 0; j < 3; j++)
                     {
                         f.WriteLine(cXYT[j].Last());
                     }
                     f.Close();
-                    break;
-                }
-                for(int j = 0; j < 3; j++)
-                {
-                    f.WriteLine(cXYT[j].Last());
-                    Console.WriteLine(cXYT[j].Last());
                 }
             }
+            Console.WriteLine("Полёт окончен по плану. Время полёта: {0} секунд. Дистанция: {1} метров", flt, cXYT[0].Last());
             f.Close();
         }
     }
@@ -66,12 +65,12 @@ namespace Movement
 
         static void Main(string[] args)
         {
-            double sp, ang,time;
+            double sp, ang, step;
             sp = Convert.ToDouble(Console.ReadLine());
             ang = Convert.ToDouble(Console.ReadLine());
-            time = Convert.ToDouble(Console.ReadLine());
+            step = Convert.ToDouble(Console.ReadLine());
             Move n1 = new Move(sp, ang);
-            n1.Calculate(time);
+            n1.Calculate(step);
         }
     }
 }
