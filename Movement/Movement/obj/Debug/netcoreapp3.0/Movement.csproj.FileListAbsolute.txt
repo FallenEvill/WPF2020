@@ -1,11 +1,11 @@
+C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.csprojAssemblyReference.cache
+C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.AssemblyInfoInputs.cache
+C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.AssemblyInfo.cs
+C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.dll
+C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.pdb
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.exe
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.deps.json
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.runtimeconfig.json
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.runtimeconfig.dev.json
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.dll
 C:\Users\sashe\source\repos\Movement\Movement\bin\Debug\netcoreapp3.0\Movement.pdb
-C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.csprojAssemblyReference.cache
-C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.AssemblyInfoInputs.cache
-C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.AssemblyInfo.cs
-C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.dll
-C:\Users\sashe\source\repos\Movement\Movement\obj\Debug\netcoreapp3.0\Movement.pdb
