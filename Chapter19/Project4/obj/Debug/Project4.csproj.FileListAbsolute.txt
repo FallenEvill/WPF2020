@@ -1,0 +1,10 @@
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\Project4.csprojAssemblyReference.cache
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\XamlButton.baml
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\XamlStackPanel.baml
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\Project4_MarkupCompile.cache
+C:\Users\sashe\source\repos\Project4\Project4\bin\Debug\Project4.exe.config
+C:\Users\sashe\source\repos\Project4\Project4\bin\Debug\Project4.exe
+C:\Users\sashe\source\repos\Project4\Project4\bin\Debug\Project4.pdb
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\Project4.g.resources
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\Project4.exe
+C:\Users\sashe\source\repos\Project4\Project4\obj\Debug\Project4.pdb
