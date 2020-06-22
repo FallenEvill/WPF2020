@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackPanel
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"              
+DataContext="{Binding  ElementName=scroll}">
+  <!-- Объявление стэк-панели, адрес файла объявляющего требуемое пространство имен, привязка к scroll  -->
+  <ScrollBar Name="scroll"               
+           Orientation="Horizontal" Margin="24"  
+           Minimum="1" Maximum="100"  LargeChange="10" SmallChange="1" />
+  <!-- Объявление полосы прокрутки, её параметры -->
+    <Label HorizontalAlignment="Center"        
+           Content="{Binding Path=Value,  Mode=OneWay}" />
+  <!-- Создание и привязка Label к scrol-->
+   <Button HorizontalAlignment="Center" Margin="24"   
+           FontSize="{Binding Path=Value,  Mode=OneWay}">     
+     Bound Button    
+   </Button>
+  <!-- Создание и привязка кнопки к полосе прокрутки-->
+</StackPanel> 
+<!-- Конец объявления стэк-панели-->

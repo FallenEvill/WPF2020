@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackPanel 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"        
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel.Resources>
+    <Style TargetType="{x:Type Button}"> <!-- Создание стиля для кнопки-->
+      <Setter Property="HorizontalAlignment"  
+              Value="Center" /> <!-- Центрирование по горизонтали-->
+      <Setter Property="Margin" 
+              Value="12" />
+      <Setter  Property="RenderTransformOrigin"
+               Value="0.5 0.5" />
+      <!-- Задание центральной точки трансформаций-->
+      <Setter Property="RenderTransform">
+        <Setter.Value>
+          <RotateTransform />
+        </Setter.Value>
+      </Setter>
+      <Style.Triggers>
+        <EventTrigger RoutedEvent="Button.Click">
+          <!--Триггер события - клик мышкой-->
+          <BeginStoryboard>
+            <!--Начало Анимации-->
+            <Storyboard  TargetProperty="RenderTransform.Angle">
+              <!-- Во время анимации кнопка будет поворачиваться -->
+              <DoubleAnimation From="-5" To="5"  
+                               Duration="0:0:0.05"
+                               AutoReverse="True"    
+                               RepeatBehavior="3x"   
+                               FillBehavior="Stop" />
+              <!-- Параметры анимации -->
+            </Storyboard>
+          </BeginStoryboard>
+        </EventTrigger>
+      </Style.Triggers>
+    </Style>
+  </StackPanel.Resources>
+  <!--Создание кнопок в стак панели-->
+  <Button>Button No. 1</Button>
+  <Button>Button No. 2</Button>
+  <Button>Button No. 3</Button>
+  <Button>Button No. 4</Button>
+  <Button>Button No. 5</Button>
+</StackPanel>

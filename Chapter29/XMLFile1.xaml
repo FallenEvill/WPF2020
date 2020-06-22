@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Создание холста-->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com /winfx/2006/xaml">
+  <!--Создание прямоугольника-->
+  <Rectangle 
+    Canvas.Left="100"
+    Canvas.Top="100"
+    Stroke="Red"
+    Width="10"
+    Height="10" 
+    RenderTransform="10 0 0 10 0 0" />
+  <!-- RenderTransform увеличит квадрат в 10 раз(Включая ширину линий) -->
+  <Path
+    Canvas.Left="300"
+    Canvas.Top="100"
+    Stroke="Red">
+    <Path.Data>
+      <RectangleGeometry 
+        Rect="0 0 10 10"   
+        Transform="10 0 0 10 0 0" />
+      <!-- Transform увеличит длину сторон прямоугольника в 10 раз(Не меняя ширину) -->
+    </Path.Data>
+  </Path>
+</Canvas>

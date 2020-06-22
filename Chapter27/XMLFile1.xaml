@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+  <!-- Объявление сетки-->    
+  <Polyline Margin="0.5in, 1.5in, 0, 0"               
+            Points="0 0, 500 25, 0 50"               
+            VerticalAlignment="Center"              
+            Stroke="Blue"               
+            StrokeThickness="{Binding  ElementName=sliderThickness,  
+            Path=Value }"               
+            StrokeStartLineCap="{Binding  ElementName=lstboxStartLineCap,Path=SelectedItem.Content}"        
+            StrokeEndLineCap="{Binding  ElementName=lstboxEndLineCap, Path=SelectedItem.Content}"        
+            StrokeLineJoin="{Binding  ElementName=lstboxLineJoin,Path=SelectedItem.Content}"       
+            StrokeMiterLimit="{Binding  ElementName=sliderMiterLimit,Path=Value }" /> 
+  <!-- Создание объекта, рисующего последовательно соединённых прямых линий, создание привязки его параметров-->
+  <StackPanel Grid.Column="0"           
+              Margin="0, 12, 0, 0"        
+              Orientation="Horizontal" >
+    <!-- Создание горизонтальной стак-панели в первом столбце сетки -->
+  <StackPanel.Resources>
+    <Style x:Key="uigroup">
+      <Setter Property="StackPanel.VerticalAlignment"                      
+              Value="Top" />
+      <Setter Property="StackPanel.Width"                       
+              Value="100" />
+      <Setter Property="StackPanel.Margin"           
+              Value="12, 0, 12, 0" />
+    </Style>
+  </StackPanel.Resources>
+    <!-- Определение стиля для элементов интерфейса. -->
+  <StackPanel Style="{StaticResource uigroup}">
+    <Label Content="_Thickness" />
+    <Slider Name="sliderThickness"       
+            Minimum="0"                 
+            Maximum="100"            
+            Value="24" />
+  </StackPanel>
+    <!-- Создание слайдера для изменения параметра толщины -->
+  <StackPanel Style="{StaticResource uigroup}">
+    <Label Content="_StartLineCap" />
+    <ListBox Name="lstboxStartLineCap">
+      <ListBoxItem Content="{x:Static  PenLineCap.Flat}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Square}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Round}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Triangle}" />
+    </ListBox>
+  </StackPanel>
+    <!-- Создание листа вариантов для изменения параметра StartLineCap -->
+  <StackPanel Style="{StaticResource uigroup}">
+    <Label Content="_EndLineCap" />
+    <ListBox Name="lstboxEndLineCap">
+      <ListBoxItem Content="{x:Static  PenLineCap.Flat}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Square}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Round}" />
+      <ListBoxItem Content="{x:Static  PenLineCap.Triangle}" />
+    </ListBox>
+  </StackPanel>
+    <!-- Создание листа вариантов для изменения параметра EndLineCap -->
+  <StackPanel Style="{StaticResource uigroup}">
+    <Label Content="_LineJoin" />
+    <ListBox Name="lstboxLineJoin">
+      <ListBoxItem Content="{x:Static  PenLineJoin.Bevel}" />
+      <ListBoxItem Content="{x:Static  PenLineJoin.Round}" />
+      <ListBoxItem Content="{x:Static  PenLineJoin.Miter}" />
+    </ListBox>
+  </StackPanel>
+    <!-- Создание листа вариантов для изменения параметра LineJoin -->
+  <StackPanel Style="{StaticResource uigroup}">
+    <Label Content="_MiterLimit" />
+    <Slider Name="sliderMiterLimit"         
+            Minimum="0"               
+  Maximum="100"               
+  Value="10" />
+  </StackPanel>
+    <!-- Создание слайдера для изменения параметра расстояния дорисовки -->
+</StackPanel>
+</Grid>

@@ -1,0 +1,12 @@
+C:\Users\pc\source\repos\Chapter13\bin\Debug\Chapter13.exe.config
+C:\Users\pc\source\repos\Chapter13\bin\Debug\Chapter13.exe
+C:\Users\pc\source\repos\Chapter13\bin\Debug\Chapter13.pdb
+C:\Users\pc\source\repos\Chapter13\obj\Debug\Chapter13.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Chapter13\obj\Debug\Chapter13.exe
+C:\Users\pc\source\repos\Chapter13\obj\Debug\Chapter13.pdb
+C:\Users\sashe\source\repos\Chapter13\bin\Debug\Chapter13.exe.config
+C:\Users\sashe\source\repos\Chapter13\bin\Debug\Chapter13.exe
+C:\Users\sashe\source\repos\Chapter13\bin\Debug\Chapter13.pdb
+C:\Users\sashe\source\repos\Chapter13\obj\Debug\Chapter13.csprojAssemblyReference.cache
+C:\Users\sashe\source\repos\Chapter13\obj\Debug\Chapter13.exe
+C:\Users\sashe\source\repos\Chapter13\obj\Debug\Chapter13.pdb
