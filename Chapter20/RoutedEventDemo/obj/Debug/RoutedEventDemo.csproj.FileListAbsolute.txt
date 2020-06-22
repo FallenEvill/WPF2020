@@ -1,0 +1,8 @@
+D:\sashe\Chapter 20\RoutedEventDemo\bin\Debug\RoutedEventDemo.exe
+D:\sashe\Chapter 20\RoutedEventDemo\bin\Debug\RoutedEventDemo.pdb
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo.baml
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo.g.cs
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo_MarkupCompile.cache
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo.g.resources
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo.exe
+D:\sashe\Chapter 20\RoutedEventDemo\obj\Debug\RoutedEventDemo.pdb

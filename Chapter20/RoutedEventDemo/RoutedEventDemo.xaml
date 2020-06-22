@@ -1,0 +1,28 @@
+﻿<!-- ==================================================
+      RoutedEventDemo.xaml (c) 2006 by Charles Petzold
+     ================================================== -->
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Petzold.RoutedEventDemo.RoutedEventDemo"
+    Title="Routed Event Demo">
+    <!-- Подключение класса из .cs файла -->
+    <TextBlock Name="txtblk" 
+               FontSize="24pt" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               ToolTip="Right click to display context menu"> <!-- Текстовый блок с контекстным меню -->
+        TextBlock with Context Menu
+        <TextBlock.ContextMenu>
+            <ContextMenu MenuItem.Click="MenuItemOnClick"> <!-- Перехват клика по меню -->
+                <MenuItem Header="Red" />
+                <MenuItem Header="Orange" />
+                <MenuItem Header="Yellow" />
+                <MenuItem Header="Green" />
+                <MenuItem Header="Blue" />
+                <MenuItem Header="Indigo" />
+                <MenuItem Header="Violet" />
+            </ContextMenu> <!-- Содержимое контекстного меню -->
+        </TextBlock.ContextMenu>
+    </TextBlock>
+</Window>
+
