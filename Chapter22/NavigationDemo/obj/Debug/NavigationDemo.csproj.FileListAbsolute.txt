@@ -1,0 +1,13 @@
+D:\sashe\Chapter 22\NavigationDemo\bin\Debug\NavigationDemo.exe
+D:\sashe\Chapter 22\NavigationDemo\bin\Debug\NavigationDemo.pdb
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemo.csprojAssemblyReference.cache
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemoWindow.baml
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\Page1.baml
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\Page2.baml
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\Page3.baml
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\Page2.g.cs
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemoApp.g.cs
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemo_MarkupCompile.cache
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemo.g.resources
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemo.exe
+D:\sashe\Chapter 22\NavigationDemo\obj\Debug\NavigationDemo.pdb
