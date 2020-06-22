@@ -1,0 +1,4 @@
+D:\sashe\Chapter 15\MoveTheToolbar\bin\Debug\MoveTheToolbar.exe
+D:\sashe\Chapter 15\MoveTheToolbar\bin\Debug\MoveTheToolbar.pdb
+D:\sashe\Chapter 15\MoveTheToolbar\obj\Debug\MoveTheToolbar.exe
+D:\sashe\Chapter 15\MoveTheToolbar\obj\Debug\MoveTheToolbar.pdb
